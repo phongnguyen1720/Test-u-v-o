@@ -1,0 +1,119 @@
+body {
+    background-color: #BFC8E6;
+    margin: 173px 193px 194px 197px;
+}
+
+.layout {
+    /* width: 1213px; */
+    height: 830px;
+    /* left: 193px;
+    top: 173px; */
+
+    background: #FFFFFF;
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.menu {
+    display: flex;
+}
+
+.content_header {
+    width: 60%;
+}
+
+.search {
+    width: 40%;
+}
+
+.content_header span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #151B32;
+    opacity: 0.8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+    padding: 8px 8px;
+}
+
+.content_header span:hover {
+    background: #849FFF;
+    border-radius: 8px;
+}
+input{height: 30px;
+    width: 60%;}
+.tags {
+    width: 327px;
+    height: 208px;
+    background: #FBFCFF;
+    border-radius: 16px;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+    display: flex;
+    padding: 24px 24px;
+    border: 1px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+.tags:hover {
+    background: #FBFCFF;
+    border: 1px solid #BFC8E6;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+    border-radius: 16px;
+}
+
+.edge_content {
+    margin-left: 6px;
+}
+
+.child_content span {
+    background: #FFFFFF;
+    border: 1px solid #BFC8E6;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #516FD5;
+    padding: 2px 8px;
+}
+
+header {
+    margin-bottom: 74px;
+}
+
+.edge_content .title {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    color: #151B32;
+}
+
+.edge_content .title2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #151B32;
+}
+
+.child_content {
+    margin-top: 18px;
+}
